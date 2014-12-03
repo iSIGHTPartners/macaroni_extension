@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head><title>Macaroni Options</title></head>
+<body>
+
+<h1>Macaroni Settings</h1>
+
+<form>
+API Key: 
+<input type="text" id="apikey" value="your_api_key">
+</form>
+<p>
+<form>
+API Host: 
+<input type="text" id="api_host" value="localhost:5000">
+</form>
+<p>
+Tag Search Results
+<select id="search_results">
+ <option value="25">25</option>
+ <option value="50">50</option>
+ <option value="75">75</option>
+ <option value="100">100</option>
+</select>
+<hr>
+<div id="status"></div>
+<button id="save">Save</button>
+
+<script src="options.js"></script>
+</body>
+</html>
