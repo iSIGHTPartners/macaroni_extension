@@ -1,0 +1,34 @@
+{
+    "name": "macaroni",
+    "title": "Macaroni",
+    "id": "jid1-omfE6GUsWxYXhw",
+    "description": "Add your yara tags to VTMIS",
+    "author": "Nick Summerlin",
+    "homepage": "https://macaroni-project.org/",
+    "license": "MPL 2.0",
+    "version": "0.1",
+    "permissions": {
+        "cross-domain-content": ["https://macaroni-project.org/"]
+    },
+    "preferences": [{
+        "name": "apikey",
+        "title": "API Key",
+        "description": "Your Macaroni Project API key",
+        "type": "string",
+        "value": "YOUR_API_KEY_HERE"
+    },
+    {
+        "name": "api_host",
+        "title": "API Host",
+        "description": "The hostname of your Macaroni Server (including port!).",
+        "type": "string",
+        "value": "macaroni-project.org"
+    },
+    {
+        "name": "search_results",
+        "title": "Search Results",
+        "description": "The number of results that are returned from a tag search (50 is the max!).",
+        "type": "integer",
+        "value": 25
+    }]
+}
